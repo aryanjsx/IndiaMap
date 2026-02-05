@@ -1,4 +1,4 @@
-# React SVG Map India
+# IndiaMap
 
 This package generates an interactive SVG map of India. It allows users to highlight states on hover and retrieve the value of the selected state. The map includes all 28 states and 8 union territories of India.
 
@@ -19,13 +19,13 @@ This package generates an interactive SVG map of India. It allows users to highl
 Install the package via npm:
 
 ```bash
-npm install react-svgmap-india
+npm i aryanjsx/indiamap
 ```
 
 Or with yarn:
 
 ```bash
-yarn add react-svgmap-india
+yarn add aryanjsx/indiamap
 ```
 
 ## State List
@@ -82,7 +82,7 @@ const states = {
 'use client'
 
 import { useState } from 'react'
-import IndiaMap from 'react-svgmap-india'
+import IndiaMap from 'indiamap'
 
 export default function MapComponent() {
   const [state, setState] = useState('')
@@ -107,7 +107,7 @@ export default function MapComponent() {
 
 ```tsx
 import { useState } from 'react'
-import IndiaMap from 'react-svgmap-india'
+import IndiaMap from 'indiamap'
 
 export default function MapComponent() {
   const [selectedState, setSelectedState] = useState<string>('')

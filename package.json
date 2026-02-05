@@ -1,5 +1,5 @@
 {
-  "name": "react-svgmap-india",
+  "name": "indiamap",
   "version": "2.2.0",
   "description": "Interactive SVG Map of India with hover and click functionality",
   "main": "dist/index.js",
