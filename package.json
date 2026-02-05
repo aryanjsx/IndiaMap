@@ -1,0 +1,56 @@
+{
+  "name": "react-svgmap-india",
+  "version": "2.2.0",
+  "description": "Interactive SVG Map of India with hover and click functionality",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanjsx/IndiaMap.git"
+  },
+  "keywords": [
+    "india",
+    "svgmap",
+    "indiamap",
+    "svgmap-india",
+    "react",
+    "map component",
+    "interactive map",
+    "india states"
+  ],
+  "author": "Aryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryanjsx/IndiaMap/issues"
+  },
+  "homepage": "https://github.com/aryanjsx/IndiaMap#readme",
+  "peerDependencies": {
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.25.9",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/react": "^19.0.8",
+    "rollup": "^4.31.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  }
+}

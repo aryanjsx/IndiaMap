@@ -1,0 +1,11 @@
+node_modules
+src
+rollup.config.js
+svgmap.gif
+tsconfig.json
+.gitignore
+.DS_Store
+*.log
+.env
+.env.local
+package-lock.json
