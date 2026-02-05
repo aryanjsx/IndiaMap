@@ -1,6 +1,6 @@
 {
   "name": "@aryanjsx/indiamap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Interactive SVG Map of India with hover and click functionality",
   "type": "module",
   "main": "dist/index.js",
