@@ -67,7 +67,7 @@ const IndiaMap = ({
             tabIndex={0}
             role="button"
             aria-label={`Select ${stateCode}`}
-            style={{ cursor: 'pointer', transition: 'fill 0.2s ease' }}
+            style={{ cursor: 'pointer', transition: 'fill 0.2s ease', outline: 'none' }}
           />
         ))}
       </svg>

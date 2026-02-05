@@ -1,7 +1,8 @@
 {
-  "name": "indiamap",
-  "version": "2.2.0",
+  "name": "@aryanjsx/indiamap",
+  "version": "1.0.1",
   "description": "Interactive SVG Map of India with hover and click functionality",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -16,6 +17,9 @@
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
